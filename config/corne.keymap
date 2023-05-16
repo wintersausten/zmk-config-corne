@@ -11,7 +11,7 @@
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
 &lt {
-    quick_tap_ms = <150>;
+    quick_tap_ms = <200>;
 };
 
 / {
