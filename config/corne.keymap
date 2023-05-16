@@ -82,7 +82,7 @@
           combo_equal {
             timeout-ms = <50>;
             key-positions = <5 17>;
-            bindings = <&kp PIPE>;
+            bindings = <&kp EQUAL>;
           };
           combo_question {
             timeout-ms = <50>;
