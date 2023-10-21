@@ -37,6 +37,7 @@
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp ENTER>;
+            layers = <0>;
           };
           combo_l_paren {
             timeout-ms = <50>;
@@ -161,8 +162,8 @@
                         bindings = <
    &none AS(Q) AS(W) AS(E) AS(R) AS(T)   AS(Y) AS(U)  AS(I)     AS(O)   AS(P)     &none
    &none AS(A) AS(S) AS(D) AS(F) AS(G)   AS(H) AS(J)  AS(K)     AS(L)   AS(SEMI)  &none
-   &none AS(Z) AS(X) AS(C) AS(V) AS(B)   AS(N) AS(M)  AS(COMMA) AS(DOT) &kp FSLH  &none
-               &none &mo 1 &kp SPACE   &lt 2 BKSP &kp TAB &none
+   &none AS(Z) AS(X) AS(C) AS(V) AS(B)   AS(N) AS(M)  AS(COMMA) AS(DOT) &ht_bl BSLH FSLH  &none
+               &none &mo 1 &kp SPACE   &lt 2 BKSP &kp TAB &caps_word
                         >;
                 };
                 num_mod_layer {
