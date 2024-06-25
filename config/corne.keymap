@@ -42,7 +42,7 @@
           combo_delete {
             timeout-ms = <50>;
             key-positions = <21 22>;
-            binding = <&kp BKSP>;
+            bindings = <&kp BKSP>;
           };
           combo_l_paren {
             timeout-ms = <50>;
@@ -163,12 +163,12 @@
 // |      |  Q  |  W  |  E  |  R  |  T  |   |  Y     |  U  |  I  |  O  |  P  |      |
 // |      |  A  |  S  |  D  |  F  |  G  |   |  H     |  J  |  K  |  L  | ;/: |      |
 // |      |  Z  |  X  |  C  |  V  |  B  |   |  N     |  M  |  ,  |  .  |  /  |      |
-//                    |     | TAB | SPC |   | BKSP/L2| L1  |     |
+//                    | L2  | TAB | SPC |   | BKSP/L2| L1  |     |
                         bindings = <
    &none AS(Q) AS(W) AS(E) AS(R) AS(T)   AS(Y) AS(U)  AS(I)     AS(O)   AS(P)     &none
    &none AS(A) AS(S) AS(D) AS(F) AS(G)   AS(H) AS(J)  AS(K)     AS(L)   AS(SEMI)  &none
    &none AS(Z) AS(X) AS(C) AS(V) AS(B)   AS(N) AS(M)  AS(COMMA) AS(DOT) &mt BSLH FSLH  &none
-               &none &mo 1 &kp SPACE   &lt 2 BKSP &kp TAB &caps_word
+               &lt 2 &mo 1 &kp SPACE   &lt 2 BKSP &kp TAB &caps_word
                         >;
                 };
                 num_mod_layer {
