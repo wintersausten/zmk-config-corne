@@ -41,7 +41,7 @@
           };
           combo_delete {
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <20 21>;
             bindings = <&kp BKSP>;
           };
           combo_l_paren {
